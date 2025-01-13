@@ -1,0 +1,108 @@
+.naslov {
+    color: rgb(255, 253, 253);
+    font-family: Alfa Slab One;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tuto {
+    text-align: center;
+}
+
+.website {
+    text-align: center; 
+}
+
+.tutorial {
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(25,25,25);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Oswald;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.site {
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(25,25,25);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Oswald;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.tools {
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(25,25,25);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Oswald;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.faq1 {
+    border-radius: 3px;
+    border: none;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(25,25,25);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Oswald;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(30, 30, 30);
+    transition: 0.25s;
+}
+
+.btn:active { 
+    background-color: rgb(22,22,22);
+    transition: 0.1s;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px  solid black;
+    border-radius: 3px;
+    z-index: 10;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    width: 500px;
+    max-width: 80%;
+    display: none;
+}
+
+.header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.close-button {
+    align-items: ;
+}
